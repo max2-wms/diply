@@ -31,7 +31,7 @@ gulp.task('sass', () => {
 gulp.task('all', ['copyHtml', 'minify', 'sass']);
 
 // Serve files
-gulp.task('serve', ['all'], () => {
+gulp.task('serve', ['copyHtml', 'minify', 'sass'], () => {
     browerSync.init({
         server: './dist'
     });

@@ -1,1 +1,42 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+.jumbotron {
+    width: 100%;
+    text-align: center;
+}
+
+article {
+    padding-right: 20px;
+}
+
+.sidebar {
+    border-radius: 10px;
+    padding: 20px;
+    border: thin solid #CCC;
+    text-align: center;
+
+    h4 {
+        margin-bottom: 30px;
+    }
+}
+
+footer {
+    margin-top: 30px;
+    border-radius: 0.3rem;
+    padding: 20px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.pagination nav {
+    margin: 50px auto 10px;
+}
+
+.card-text {
+    font-size: 70%;
+    color: gray;
+
+    p span {
+        line-height: 1.3 !important;
+    }
+}
